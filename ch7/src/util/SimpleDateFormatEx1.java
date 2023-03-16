@@ -19,6 +19,7 @@ public class SimpleDateFormatEx1 {
 		// 시스템 날짜와 시간 가져오기
 		Date date = new Date();
 		System.out.println(date);
+		//날짜와 시간을 특정 형식에 맞춰 출력 가능하게 하는 클래스
 		// date 와 simpledate는 짝꿍
 		SimpleDateFormat sdf = new SimpleDateFormat(); //format 기본형태 : 23. 3. 9. 오후 5:05
 		System.out.println(sdf.format(date));
