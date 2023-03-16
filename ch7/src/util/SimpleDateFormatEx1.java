@@ -16,7 +16,7 @@ public class SimpleDateFormatEx1 {
 
 	public static void main(String[] args) {
 		//SimpleDateFormat sdf = new SimpleDateFormat();
-	
+		// 시스템 날짜와 시간 가져오기
 		Date date = new Date();
 		System.out.println(date);
 		// date 와 simpledate는 짝꿍
